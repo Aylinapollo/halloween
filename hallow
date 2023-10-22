@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trick or Treat</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-top: 20%;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trick or Treat</h1>
+    <p>Either way you're fucked</p>
+    <button onclick="trick()">Trick</button>
+    <button onclick="treat()">Treat</button>
+
+    <p id="result"></p>
+
+    <script>
+        function trick() {
+            window.location.href = 'trick.html'; // Redirect to the 'trick.html' page
+        }
+
+        function treat() {
+            window.location.href = 'treat.html'; // Redirect to the 'treat.html' page
+        }
+    </script>
+</body>
+</html>
